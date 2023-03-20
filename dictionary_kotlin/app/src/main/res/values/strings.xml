@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Dictionary Kotlin</string>
+    <string name="add_word">Adicionar palavra</string>
+</resources>
