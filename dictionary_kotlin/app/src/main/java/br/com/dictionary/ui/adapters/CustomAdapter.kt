@@ -1,4 +1,4 @@
-package br.com.dictionary
+package br.com.dictionary.ui.adapters
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import android.widget.TextView
+import br.com.dictionary.R
 import br.com.dictionary.data.DictionaryRepository
 import br.com.dictionary.models.Word
 

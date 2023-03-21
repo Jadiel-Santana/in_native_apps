@@ -8,7 +8,7 @@ android {
     compileSdk 33
 
     defaultConfig {
-        applicationId "br.com.dictionary"
+        applicationId 'br.com.dictionary'
         minSdk 23
         targetSdk 33
         versionCode 1
@@ -22,10 +22,13 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+        profile {
+            initWith debug
+        }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility 11
+        targetCompatibility 11
     }
     kotlinOptions {
         jvmTarget = '1.8'
@@ -44,4 +47,8 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    debugImplementation 'br.com.dictionary.dictionary_flutter:flutter_debug:1.0'
+    profileImplementation 'br.com.dictionary.dictionary_flutter:flutter_profile:1.0'
+    releaseImplementation 'br.com.dictionary.dictionary_flutter:flutter_release:1.0'
 }
