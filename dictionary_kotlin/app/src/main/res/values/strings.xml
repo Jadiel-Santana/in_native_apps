@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Dictionary Kotlin</string>
     <string name="add_word">Adicionar palavra</string>
+    <string name="edit_word">Digite uma Palavra</string>
+    <string name="edit_definition">Digite uma Definição</string>
+    <string name="button_save">Salvar</string>
+    <string name="empty_list_text">Nenhuma palavra cadastrada</string>
 </resources>
