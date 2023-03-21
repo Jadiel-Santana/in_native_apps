@@ -12,7 +12,6 @@ import br.com.dictionary.models.Word
 
 class CustomAdapter(context: Context) : ArrayAdapter<Word>(context, 0, DictionaryRepository.items as List<Word>) {
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
-
         var currentItemView = convertView
 
         if (currentItemView == null) {
@@ -21,11 +20,11 @@ class CustomAdapter(context: Context) : ArrayAdapter<Word>(context, 0, Dictionar
 
         val currentNumberPosition: Word? = getItem(position)
 
-        val textView1 = currentItemView?.findViewById<TextView>(R.id.word_text)
-        textView1?.text = currentNumberPosition?.word
+        val wordText = currentItemView?.findViewById<TextView>(R.id.word_text)
+        wordText?.text = currentNumberPosition?.word
 
-        val textView2 = currentItemView?.findViewById<TextView>(R.id.definition_text)
-        textView2?.text = currentNumberPosition?.definition
+        val definitionText = currentItemView?.findViewById<TextView>(R.id.definition_text)
+        definitionText?.text = currentNumberPosition?.definition
 
         return currentItemView!!
     }
