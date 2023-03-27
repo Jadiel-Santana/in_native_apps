@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `../dictionary_flutter/.ios/Flutter`)
+  - FlutterPluginRegistrant (from `../dictionary_flutter/.ios/Flutter/FlutterPluginRegistrant`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "../dictionary_flutter/.ios/Flutter"
+  FlutterPluginRegistrant:
+    :path: "../dictionary_flutter/.ios/Flutter/FlutterPluginRegistrant"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  FlutterPluginRegistrant: 58acfb6cb31ee4ca14f920aba101815efda113ee
+
+PODFILE CHECKSUM: 40c3db5ea6f883886ce2a6a7094bc05931ee4148
+
+COCOAPODS: 1.12.0

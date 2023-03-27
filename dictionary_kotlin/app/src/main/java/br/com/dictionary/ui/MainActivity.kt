@@ -21,7 +21,6 @@ import io.flutter.embedding.engine.dart.DartExecutor
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private lateinit var adapter: ArrayAdapter<Word>
-
     private lateinit var flutterEngine: FlutterEngine
 
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -9,19 +9,17 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Dictionary Flutter',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(),
     );
   }
 }
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
-
-  final String title;
+  const MyHomePage({super.key,});
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();
@@ -50,7 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.title),
+        title: const Text('Dictionary Flutter'),
         leading: IconButton(
           onPressed: () => SystemNavigator.pop(animated: true),
           icon: const Icon(Icons.arrow_back),
@@ -61,10 +59,10 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              word ?? 'Loading...',
+              word ?? 'Carregando...',
             ),
             Text(
-              definition ?? 'Loading...',
+              definition ?? 'Carregando...',
             ),
           ],
         ),
