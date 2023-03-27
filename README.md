@@ -9,5 +9,5 @@ Aplicativo desenvolvido para aplicar a integração de um módulo Flutter com as
 
 ## 🎨 Layout
 
-![android](https://user-images.githubusercontent.com/48699769/227966297-37608d7f-68ab-445b-8fa3-e2ccc2336669.gif)
-![iOS](https://user-images.githubusercontent.com/48699769/227966367-1bcb3c44-ccd1-45a9-8210-e0c16b7e3092.gif)
+![Android](https://user-images.githubusercontent.com/48699769/227968901-898cc42d-d01e-4d04-bcca-1fa6007d767c.gif)
+![iOS](https://user-images.githubusercontent.com/48699769/227968909-d3ad4b9c-170f-4d8b-8a66-1d4f41a05183.gif)
